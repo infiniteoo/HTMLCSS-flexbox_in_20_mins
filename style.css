@@ -6,7 +6,17 @@
   align-items: flex-start; */
 }
 
-.container-1 div {
+.container-2 {
+  display: flex;
+  /* justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: space-around;
+  */
+  justify-content: space-between;
+}
+
+.container-1 div,
+.container-2 div {
   border: 1px #ccc solid;
   padding: 10px;
 }
@@ -24,4 +34,8 @@
 .box-3 {
   flex: 1;
   order: 3;
+}
+
+.container-2-box {
+  width: 20%;
 }
